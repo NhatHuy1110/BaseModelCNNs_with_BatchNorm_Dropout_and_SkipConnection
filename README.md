@@ -168,6 +168,7 @@ skip_connection_model = SimpleNet(in_channels, num_classes=len(train_data.datase
 
 ✅ You can run code on googlecollab, jupyter or Kaggle notebooks, ... following my "AdvancedCNNs_with_BatchNorm_Dropout_and_SkipConnection.ipynb" file
 ✅ If you don't have a virtual enviroment, manually include the nessesary libraries. Install the necessary dependencies for this project, follow these steps:
+
     1. Clone this repository to your local machine:
     ```bash
     git clone https://github.com/NhatHuy1110/BaseModelCNNs_with_BatchNorm_Dropout_and_SkipConnection.git
