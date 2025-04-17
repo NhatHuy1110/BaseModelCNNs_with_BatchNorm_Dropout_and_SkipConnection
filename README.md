@@ -156,7 +156,8 @@ skip_connection_model = SimpleNet(in_channels, num_classes=len(train_data.datase
 
 # 🔴Note: All images illustrating the data of 4 CNNs Model in the AdvancedCNNs_with_BatchNorm_Dropout_and_SkipConnection.ipynb file, or you can run to test by yourself
 
-### Conclusion: 
+## Conclusion: 
+
 - Batch Normalization significantly improves convergence and stabilizes training, leading to better generalization on unseen data.
 
 - Dropout is an effective regularization technique that helps reduce overfitting, especially in models with a large number of parameters.
@@ -167,19 +168,20 @@ skip_connection_model = SimpleNet(in_channels, num_classes=len(train_data.datase
 ## Requirement
 
 ✅ You can run code on googlecollab, jupyter or Kaggle notebooks, ... following my "AdvancedCNNs_with_BatchNorm_Dropout_and_SkipConnection.ipynb" file
+
 ✅ If you don't have a virtual enviroment, manually include the nessesary libraries. Install the necessary dependencies for this project, follow these steps:
 
-    1. Clone this repository to your local machine:
+1. Clone this repository to your local machine:
     ```bash
     git clone https://github.com/NhatHuy1110/BaseModelCNNs_with_BatchNorm_Dropout_and_SkipConnection.git
     ```
 
-    2. Navigate into the project directory:
+2. Navigate into the project directory:
     ```bash
     cd BaseModelCNNs_with_BatchNorm_Dropout_and_SkipConnection
     ```
 
-    3. Install the required dependencies by running the following command:
+3. Install the required dependencies by running the following command:
     ```bash
     pip install -r requirements.txt
     ```
