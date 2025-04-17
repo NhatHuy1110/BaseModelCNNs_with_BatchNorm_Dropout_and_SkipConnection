@@ -5,6 +5,7 @@ This project explores and compares the performance of a simple Convolutional Neu
 - **Base Model with Batch Normalization**: Adds BatchNorm layers to the base model to help improve training stability and speed up convergence.
 - **Base Model with Dropout**: Adds Dropout layers to the base model to reduce overfitting.
 - **Base Model with Skip Connections**: Incorporates residual (skip) connections to improve model performance by allowing gradients to flow more easily during backpropagation.
+
 The primary objective of this project is to analyze how these enhancements (BatchNorm, Dropout, and SkipConnection) affect the performance of the CNN model in terms of accuracy and loss during training and evaluation.
 
 ## File Structure
